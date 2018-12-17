@@ -15,4 +15,4 @@ catch(err) {
 let optimizelyClient  = optimizelySDK.createInstance({'datafile': datafileContents})
 let bucketingDecision = optimizelyClient.activate('sorting_experiment', 'userId-123')
 
-console.log('Variation Bucket': bucketingDecision)
+console.log('Variation Bucket', bucketingDecision)
